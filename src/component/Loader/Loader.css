@@ -1,0 +1,14 @@
+.Loader-background {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Loader-background h1 {
+  font-size: 50px;
+  color: white;
+  transition: ease-in-out 1s;
+}

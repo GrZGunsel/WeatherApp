@@ -1,0 +1,14 @@
+.SearchHistory {
+  margin: 5% 5%;
+  padding: 5% 0%;
+  padding-top: 0;
+  border-bottom: 1px solid white;
+}
+.SearchHistory ul {
+  list-style-type: none;
+}
+
+.SearchHistory ul li {
+  font-size: 10px;
+  margin: 6% 0%;
+}

@@ -1,0 +1,47 @@
+.logo {
+  height: 50vh;
+  font-size: 14px;
+}
+
+.temperature {
+  display: flex;
+}
+
+.temperature > .current-temperature {
+  display: flex;
+
+  justify-content: flex-end;
+}
+.temperature .current-temperature > h1 {
+  font-size: 90px;
+  font-weight: 600;
+}
+.temperature > .city {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.temperature .city > h2 {
+  font-size: 35px;
+}
+
+.temperature .city > p {
+  font-size: 8px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.temperature > .weather {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.temperature .weather > p {
+  font-size: 8px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}

@@ -1,0 +1,24 @@
+.weatherDetail_header {
+  font-size: 11px;
+  margin: 8% 6%;
+  font-weight: 600;
+}
+
+.weatherComponent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weatherComponent {
+  padding: 2% 6%;
+}
+
+.weatherComponent > h6 {
+  font-size: 9px;
+  font-weight: 400;
+}
+
+.weatherComponent > p {
+  font-size: 8px;
+  font-weight: 400;
+}
